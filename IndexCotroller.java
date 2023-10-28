@@ -18,7 +18,7 @@ public class IndexCotroller {
 	
 	
 	@PostMapping("/register")
-	public String userResistration(@ModelAttribute User user, Model modee) {
+	public String userResistration(@ModelAttribute User user, Model model) {
 		System.out.println(user.toString());
 		//validate
 		System.out.println(user.getFname());
